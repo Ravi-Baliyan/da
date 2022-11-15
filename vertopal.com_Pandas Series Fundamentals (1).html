@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>bdb62cf3a808424fb23746e75113026f</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="1-define-a-pandas-series-with-numeric-default-index" class="cell markdown" id="1ivPDcc7p8lD">
+<h1>1. DEFINE A PANDAS SERIES (WITH NUMERIC DEFAULT INDEX)</h1>
+</section>
+<div class="cell code" id="4YdCraz8p_XF">
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Pandas is a data manipulation and analysis tool that is built on Numpy.</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Pandas uses a data structure known as DataFrame (think of it as Microsoft excel in Python). </span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># DataFrames empower programmers to store and manipulate data in a tabular fashion (rows and columns).</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Series Vs. DataFrame? Series is considered a single column of a DataFrame.</span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="1" id="6H2808pkqKIR">
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd </span></code></pre></div>
+</div>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" data-executionInfo="{&quot;status&quot;:&quot;ok&quot;,&quot;user&quot;:{&quot;photoUrl&quot;:&quot;https://lh3.googleusercontent.com/a-/AOh14Gj2vCFt-bD5mPBhUWX0QA6xiBgoXQXtwUm2jgjaCg=s64&quot;,&quot;userId&quot;:&quot;10668071569687886186&quot;,&quot;displayName&quot;:&quot;Stemplicity&quot;},&quot;user_tz&quot;:240,&quot;elapsed&quot;:2854,&quot;timestamp&quot;:1618858274558}" id="SA9m0RD3K2TF" data-outputId="26cc61d4-5858-4a5f-e1b8-e8b7dce26b31">
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s define a Python list that contains 5 stocks: Nvidia, Microsoft, FaceBook, Amazon, and Boeing</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>my_list <span class="op">=</span> [<span class="st">&#39;NVDA&#39;</span>,<span class="st">&#39;MSFT&#39;</span>,<span class="st">&#39;FB&#39;</span>, <span class="st">&#39;AMZN&#39;</span>, <span class="st">&#39;BA&#39;</span>] </span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>my_list</span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+<pre><code>[&#39;NVDA&#39;, &#39;MSFT&#39;, &#39;FB&#39;, &#39;AMZN&#39;, &#39;BA&#39;]</code></pre>
+</div>
+</div>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" data-executionInfo="{&quot;status&quot;:&quot;ok&quot;,&quot;user&quot;:{&quot;photoUrl&quot;:&quot;https://lh3.googleusercontent.com/a-/AOh14Gj2vCFt-bD5mPBhUWX0QA6xiBgoXQXtwUm2jgjaCg=s64&quot;,&quot;userId&quot;:&quot;10668071569687886186&quot;,&quot;displayName&quot;:&quot;Stemplicity&quot;},&quot;user_tz&quot;:240,&quot;elapsed&quot;:2842,&quot;timestamp&quot;:1618858274558}" id="G-fooAckNafC" data-outputId="dedb005a-3e3a-4e3f-a9e3-f9a0fb91948a">
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s confirm the Datatype</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="bu">type</span>(my_list)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="4">
+<pre><code>list</code></pre>
+</div>
+</div>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" data-executionInfo="{&quot;status&quot;:&quot;ok&quot;,&quot;user&quot;:{&quot;photoUrl&quot;:&quot;https://lh3.googleusercontent.com/a-/AOh14Gj2vCFt-bD5mPBhUWX0QA6xiBgoXQXtwUm2jgjaCg=s64&quot;,&quot;userId&quot;:&quot;10668071569687886186&quot;,&quot;displayName&quot;:&quot;Stemplicity&quot;},&quot;user_tz&quot;:240,&quot;elapsed&quot;:2831,&quot;timestamp&quot;:1618858274559}" id="hle4zw51K6-P" data-outputId="6cd50b46-ecce-41ad-c688-ca3a662d3d5c">
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s create a one dimensional Pandas &quot;series&quot; </span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s use Pandas Constructor Method to create a series from a Python list</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Note that series is formed of data and associated index (numeric index has been automatically generated) </span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Check Pandas Documentation for More information: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.html#pandas.Series</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Object datatype is used for text data (String)</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>series_1 <span class="op">=</span> pd.Series(data <span class="op">=</span> my_list) </span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>series_1</span></code></pre></div>
+<div class="output execute_result" data-execution_count="5">
+<pre><code>0    NVDA
+1    MSFT
+2      FB
+3    AMZN
+4      BA
+dtype: object</code></pre>
+</div>
+</div>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" data-executionInfo="{&quot;status&quot;:&quot;ok&quot;,&quot;user&quot;:{&quot;photoUrl&quot;:&quot;https://lh3.googleusercontent.com/a-/AOh14Gj2vCFt-bD5mPBhUWX0QA6xiBgoXQXtwUm2jgjaCg=s64&quot;,&quot;userId&quot;:&quot;10668071569687886186&quot;,&quot;displayName&quot;:&quot;Stemplicity&quot;},&quot;user_tz&quot;:240,&quot;elapsed&quot;:2818,&quot;timestamp&quot;:1618858274559}" id="-HNCtPcoNUyf" data-outputId="de6ed879-617b-454d-e792-7a7cb300b903">
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s confirm the Pandas Series Datatype</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="bu">type</span>(series_1)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="6">
+<pre><code>pandas.core.series.Series</code></pre>
+</div>
+</div>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" data-executionInfo="{&quot;status&quot;:&quot;ok&quot;,&quot;user&quot;:{&quot;photoUrl&quot;:&quot;https://lh3.googleusercontent.com/a-/AOh14Gj2vCFt-bD5mPBhUWX0QA6xiBgoXQXtwUm2jgjaCg=s64&quot;,&quot;userId&quot;:&quot;10668071569687886186&quot;,&quot;displayName&quot;:&quot;Stemplicity&quot;},&quot;user_tz&quot;:240,&quot;elapsed&quot;:2806,&quot;timestamp&quot;:1618858274560}" id="LB2J-qw5LdQI" data-outputId="b094c6c0-9091-4998-9cfe-01c00ac51933">
+<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s define another Pandas Series that contains numeric values (stock prices) instead of text data</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Note that we have int64 datatype which means it&#39;s integer stored in 64 bits in memory</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>series_2 <span class="op">=</span> pd.Series(data <span class="op">=</span> [<span class="dv">100</span>, <span class="dv">200</span>, <span class="dv">500</span>, <span class="dv">1000</span>, <span class="dv">5000</span>])</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>series_2</span></code></pre></div>
+<div class="output execute_result" data-execution_count="7">
+<pre><code>0     100
+1     200
+2     500
+3    1000
+4    5000
+dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="8C0UN46KIntM">
+<p><strong>MINI CHALLENGE #1:</strong></p>
+<ul>
+<li><strong>Define a Pandas Series named "my_series" that contains your top 3 favourite movies. Confirm the datatype of "my_series"</strong></li>
+</ul>
+</div>
+<div class="cell code" id="l2aMAKvpJyWH">
+<div class="sourceCode" id="cb13"><pre class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<section id="2-define-a-pandas-series-with-custom-index" class="cell markdown" id="XN92TgiQOD7I">
+<h1>2. DEFINE A PANDAS SERIES WITH CUSTOM INDEX</h1>
+</section>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" data-executionInfo="{&quot;status&quot;:&quot;ok&quot;,&quot;user&quot;:{&quot;photoUrl&quot;:&quot;https://lh3.googleusercontent.com/a-/AOh14Gj2vCFt-bD5mPBhUWX0QA6xiBgoXQXtwUm2jgjaCg=s64&quot;,&quot;userId&quot;:&quot;10668071569687886186&quot;,&quot;displayName&quot;:&quot;Stemplicity&quot;},&quot;user_tz&quot;:240,&quot;elapsed&quot;:2793,&quot;timestamp&quot;:1618858274561}" id="K4Y9jVx1OaN4" data-outputId="bb27d7de-b628-4d2e-d514-b372f8028f3c">
+<div class="sourceCode" id="cb14"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s define a Python list that contains 5 stocks: Nvidia, Microsoft, FaceBook, Amazon, and Boeing</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>my_list <span class="op">=</span> [<span class="st">&#39;NVDA&#39;</span>,<span class="st">&#39;MSFT&#39;</span>,<span class="st">&#39;FB&#39;</span>, <span class="st">&#39;AMZN&#39;</span>, <span class="st">&#39;BA&#39;</span>] </span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>my_list</span></code></pre></div>
+<div class="output execute_result" data-execution_count="8">
+<pre><code>[&#39;NVDA&#39;, &#39;MSFT&#39;, &#39;FB&#39;, &#39;AMZN&#39;, &#39;BA&#39;]</code></pre>
+</div>
+</div>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" data-executionInfo="{&quot;status&quot;:&quot;ok&quot;,&quot;user&quot;:{&quot;photoUrl&quot;:&quot;https://lh3.googleusercontent.com/a-/AOh14Gj2vCFt-bD5mPBhUWX0QA6xiBgoXQXtwUm2jgjaCg=s64&quot;,&quot;userId&quot;:&quot;10668071569687886186&quot;,&quot;displayName&quot;:&quot;Stemplicity&quot;},&quot;user_tz&quot;:240,&quot;elapsed&quot;:2782,&quot;timestamp&quot;:1618858274561}" id="ZSxdgs_xJvxx" data-outputId="6236c8f5-d62a-4ef9-9f12-8df4561ea8eb">
+<div class="sourceCode" id="cb16"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s define a python list as shown below. This python list will be used for the Series index:</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>my_labels <span class="op">=</span> [<span class="st">&#39;stock#1&#39;</span>, <span class="st">&#39;stock#2&#39;</span>, <span class="st">&#39;stock#3&#39;</span>, <span class="st">&#39;stock#4&#39;</span>, <span class="st">&#39;stock#5&#39;</span>]</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>my_labels</span></code></pre></div>
+<div class="output execute_result" data-execution_count="9">
+<pre><code>[&#39;stock#1&#39;, &#39;stock#2&#39;, &#39;stock#3&#39;, &#39;stock#4&#39;, &#39;stock#5&#39;]</code></pre>
+</div>
+</div>
+<div class="cell code" id="U4Fq06XwqX9v">
+<div class="sourceCode" id="cb18"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s create a one dimensional Pandas &quot;series&quot; </span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s use Pandas Constructor Method to create a series from a Python list</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Note that this series is formed of data and associated labels </span></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>series_3 <span class="op">=</span> pd.Series(data <span class="op">=</span> my_list, index <span class="op">=</span> my_labels)</span></code></pre></div>
+</div>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" data-executionInfo="{&quot;status&quot;:&quot;ok&quot;,&quot;user&quot;:{&quot;photoUrl&quot;:&quot;https://lh3.googleusercontent.com/a-/AOh14Gj2vCFt-bD5mPBhUWX0QA6xiBgoXQXtwUm2jgjaCg=s64&quot;,&quot;userId&quot;:&quot;10668071569687886186&quot;,&quot;displayName&quot;:&quot;Stemplicity&quot;},&quot;user_tz&quot;:240,&quot;elapsed&quot;:3263,&quot;timestamp&quot;:1618858275058}" id="YhPzprisqX_8" data-outputId="bbc1914a-67a3-4226-9827-da1657710c5d">
+<div class="sourceCode" id="cb19"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s view the series</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>series_3</span></code></pre></div>
+<div class="output execute_result" data-execution_count="11">
+<pre><code>stock#1    NVDA
+stock#2    MSFT
+stock#3      FB
+stock#4    AMZN
+stock#5      BA
+dtype: object</code></pre>
+</div>
+</div>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" data-executionInfo="{&quot;status&quot;:&quot;ok&quot;,&quot;user&quot;:{&quot;photoUrl&quot;:&quot;https://lh3.googleusercontent.com/a-/AOh14Gj2vCFt-bD5mPBhUWX0QA6xiBgoXQXtwUm2jgjaCg=s64&quot;,&quot;userId&quot;:&quot;10668071569687886186&quot;,&quot;displayName&quot;:&quot;Stemplicity&quot;},&quot;user_tz&quot;:240,&quot;elapsed&quot;:3251,&quot;timestamp&quot;:1618858275058}" id="4LPwMO8fsvi1" data-outputId="1d1a2f35-2932-49f3-e4b0-e6176c34d1a8">
+<div class="sourceCode" id="cb21"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s obtain the datatype</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="bu">type</span>(series_3)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="12">
+<pre><code>pandas.core.series.Series</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="13icipAKL4W5">
+<p><strong>MINI CHALLENGE #2:</strong></p>
+<ul>
+<li><strong>Define a Pandas Series named "my_series" that contains your top 3 favourite movies. Instead of using default numeric indexes (similar to mini challenge #1), use the following indexes "movie #1", "Movie #2", and "movie #3"</strong></li>
+</ul>
+</div>
+<div class="cell code" id="NZBRmbbuL8OC">
+<div class="sourceCode" id="cb23"><pre class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<section id="3-define-a-pandas-series-from-a-dictionary" class="cell markdown" id="96EH6h9SQYW1">
+<h1>3. DEFINE A PANDAS SERIES FROM A DICTIONARY</h1>
+</section>
+<div class="cell code" id="fk9R_fZlML_y">
+<div class="sourceCode" id="cb24"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co"># A Dictionary consists of a collection of key-value pairs. Each key-value pair maps the key to its corresponding value.</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Keys are unique within a dictionary while values may not be. </span></span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a><span class="co"># List elements are accessed by their position in the list, via indexing while Dictionary elements are accessed via keys</span></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Define a dictionary named &quot;my_dict&quot; using key-value pairs</span></span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>my_dict <span class="op">=</span> {<span class="st">&#39;Bank client ID&#39;</span> : <span class="dv">111</span>, </span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>           <span class="st">&#39;Bank Client Name&#39;</span> : <span class="st">&#39;Steve&#39;</span>, </span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>           <span class="st">&#39;Net worth [$]&#39;</span> : <span class="dv">3500</span>, </span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>           <span class="st">&#39;Years with bank&#39;</span> : <span class="dv">9</span>}</span></code></pre></div>
+</div>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" data-executionInfo="{&quot;status&quot;:&quot;ok&quot;,&quot;user&quot;:{&quot;photoUrl&quot;:&quot;https://lh3.googleusercontent.com/a-/AOh14Gj2vCFt-bD5mPBhUWX0QA6xiBgoXQXtwUm2jgjaCg=s64&quot;,&quot;userId&quot;:&quot;10668071569687886186&quot;,&quot;displayName&quot;:&quot;Stemplicity&quot;},&quot;user_tz&quot;:240,&quot;elapsed&quot;:3235,&quot;timestamp&quot;:1618858275060}" id="BlHhf-YPQdrB" data-outputId="8b32d4de-c0e0-4399-a67a-b90d33b99dd0">
+<div class="sourceCode" id="cb25"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Show the dictionary</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>my_dict</span></code></pre></div>
+<div class="output execute_result" data-execution_count="14">
+<pre><code>{&#39;Bank Client Name&#39;: &#39;Steve&#39;,
+ &#39;Bank client ID&#39;: 111,
+ &#39;Net worth [$]&#39;: 3500,
+ &#39;Years with bank&#39;: 9}</code></pre>
+</div>
+</div>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" data-executionInfo="{&quot;status&quot;:&quot;ok&quot;,&quot;user&quot;:{&quot;photoUrl&quot;:&quot;https://lh3.googleusercontent.com/a-/AOh14Gj2vCFt-bD5mPBhUWX0QA6xiBgoXQXtwUm2jgjaCg=s64&quot;,&quot;userId&quot;:&quot;10668071569687886186&quot;,&quot;displayName&quot;:&quot;Stemplicity&quot;},&quot;user_tz&quot;:240,&quot;elapsed&quot;:3223,&quot;timestamp&quot;:1618858275061}" id="0b4KQo3JMcI0" data-outputId="0223f43e-a5a1-4759-96db-357481a582ab">
+<div class="sourceCode" id="cb27"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Confirm the dictionary datatype </span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a><span class="bu">type</span>(my_dict)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="15">
+<pre><code>dict</code></pre>
+</div>
+</div>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" data-executionInfo="{&quot;status&quot;:&quot;ok&quot;,&quot;user&quot;:{&quot;photoUrl&quot;:&quot;https://lh3.googleusercontent.com/a-/AOh14Gj2vCFt-bD5mPBhUWX0QA6xiBgoXQXtwUm2jgjaCg=s64&quot;,&quot;userId&quot;:&quot;10668071569687886186&quot;,&quot;displayName&quot;:&quot;Stemplicity&quot;},&quot;user_tz&quot;:240,&quot;elapsed&quot;:3212,&quot;timestamp&quot;:1618858275061}" id="LeH27Q4aQeXe" data-outputId="e7e8c45a-7c15-4975-dc3f-d04526840b0e">
+<div class="sourceCode" id="cb29"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s define a Pandas Series Using the dictionary</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>series_4 <span class="op">=</span> pd.Series(my_dict)</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>series_4</span></code></pre></div>
+<div class="output execute_result" data-execution_count="16">
+<pre><code>Bank client ID        111
+Bank Client Name    Steve
+Net worth [$]        3500
+Years with bank         9
+dtype: object</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="_Tk4kxlLNI85">
+<p><strong>MINI CHALLENGE #3:</strong></p>
+<ul>
+<li><strong>Create a Pandas Series from a dictionary with 3 of your favourite stocks and their corresponding prices</strong></li>
+</ul>
+</div>
+<div class="cell code" id="nlG7J4oKNLuY">
+<div class="sourceCode" id="cb31"><pre class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<section id="4-pandas-attributes" class="cell markdown" id="VGlb7t7WRIR3">
+<h1>4. PANDAS ATTRIBUTES</h1>
+</section>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" data-executionInfo="{&quot;status&quot;:&quot;ok&quot;,&quot;user&quot;:{&quot;photoUrl&quot;:&quot;https://lh3.googleusercontent.com/a-/AOh14Gj2vCFt-bD5mPBhUWX0QA6xiBgoXQXtwUm2jgjaCg=s64&quot;,&quot;userId&quot;:&quot;10668071569687886186&quot;,&quot;displayName&quot;:&quot;Stemplicity&quot;},&quot;user_tz&quot;:240,&quot;elapsed&quot;:3200,&quot;timestamp&quot;:1618858275063}" id="p4FauWQlRRD8" data-outputId="e4886437-037a-4c0d-d101-4ae420394a55">
+<div class="sourceCode" id="cb32"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Attributes/Properties: do not use parantheses &quot;()&quot; and are used to get Pandas Series Properties. Ex: my_series.values, my_series.shape</span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Methods: use parantheses &quot;()&quot; and might include arguments and they actually alter/change the Pandas Series. Ex: my_series.tail(), my_series.head(), my_series.drop_duplicates()</span></span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Indexers: use square brackets &quot;[]&quot; and are used to access specific elements in a Pandas Series or DataFrame. Ex: my_series.loc[], my_series.iloc[]</span></span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s redefine a Pandas Series containing our favourite 5 stocks </span></span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Nvidia, Microsoft, FaceBook, Amazon, and Boeing</span></span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>my_list <span class="op">=</span> [<span class="st">&#39;NVDA&#39;</span>,<span class="st">&#39;MSFT&#39;</span>,<span class="st">&#39;FB&#39;</span>, <span class="st">&#39;AMZN&#39;</span>, <span class="st">&#39;BA&#39;</span>] </span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a>my_series <span class="op">=</span> pd.Series(data <span class="op">=</span> my_list)</span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a>my_series</span></code></pre></div>
+<div class="output execute_result" data-execution_count="17">
+<pre><code>0    NVDA
+1    MSFT
+2      FB
+3    AMZN
+4      BA
+dtype: object</code></pre>
+</div>
+</div>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" data-executionInfo="{&quot;status&quot;:&quot;ok&quot;,&quot;user&quot;:{&quot;photoUrl&quot;:&quot;https://lh3.googleusercontent.com/a-/AOh14Gj2vCFt-bD5mPBhUWX0QA6xiBgoXQXtwUm2jgjaCg=s64&quot;,&quot;userId&quot;:&quot;10668071569687886186&quot;,&quot;displayName&quot;:&quot;Stemplicity&quot;},&quot;user_tz&quot;:240,&quot;elapsed&quot;:3191,&quot;timestamp&quot;:1618858275063}" id="KBgZI_vHQeeA" data-outputId="15e55866-6ba6-4092-d147-ebd9ea3db158">
+<div class="sourceCode" id="cb34"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="co"># &quot;.Values&quot; attribute is used to return Series as ndarray depending on its dtype</span></span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Check this for more information: https://pandas.pydata.org/docs/reference/api/pandas.Series.values.html#pandas.Series.values</span></span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>my_series.values</span></code></pre></div>
+<div class="output execute_result" data-execution_count="18">
+<pre><code>array([&#39;NVDA&#39;, &#39;MSFT&#39;, &#39;FB&#39;, &#39;AMZN&#39;, &#39;BA&#39;], dtype=object)</code></pre>
+</div>
+</div>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" data-executionInfo="{&quot;status&quot;:&quot;ok&quot;,&quot;user&quot;:{&quot;photoUrl&quot;:&quot;https://lh3.googleusercontent.com/a-/AOh14Gj2vCFt-bD5mPBhUWX0QA6xiBgoXQXtwUm2jgjaCg=s64&quot;,&quot;userId&quot;:&quot;10668071569687886186&quot;,&quot;displayName&quot;:&quot;Stemplicity&quot;},&quot;user_tz&quot;:240,&quot;elapsed&quot;:3181,&quot;timestamp&quot;:1618858275064}" id="YDunyBEQRtoJ" data-outputId="b871c285-8973-4076-9c77-61898c193f42">
+<div class="sourceCode" id="cb36"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="co"># index is used to return the index (axis labels) of the Series</span></span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>my_series.index</span></code></pre></div>
+<div class="output execute_result" data-execution_count="19">
+<pre><code>RangeIndex(start=0, stop=5, step=1)</code></pre>
+</div>
+</div>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" data-executionInfo="{&quot;status&quot;:&quot;ok&quot;,&quot;user&quot;:{&quot;photoUrl&quot;:&quot;https://lh3.googleusercontent.com/a-/AOh14Gj2vCFt-bD5mPBhUWX0QA6xiBgoXQXtwUm2jgjaCg=s64&quot;,&quot;userId&quot;:&quot;10668071569687886186&quot;,&quot;displayName&quot;:&quot;Stemplicity&quot;},&quot;user_tz&quot;:240,&quot;elapsed&quot;:3171,&quot;timestamp&quot;:1618858275065}" id="7bgfGfQaSrqw" data-outputId="1500e3b0-a9da-4d61-cbe2-fdf8fe296a1e">
+<div class="sourceCode" id="cb38"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="co"># dtype is used to return the datatype of the Series (&#39;O&#39; stands for &#39;object&#39; datatype)</span></span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>my_series.dtype</span></code></pre></div>
+<div class="output execute_result" data-execution_count="20">
+<pre><code>dtype(&#39;O&#39;)</code></pre>
+</div>
+</div>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" data-executionInfo="{&quot;status&quot;:&quot;ok&quot;,&quot;user&quot;:{&quot;photoUrl&quot;:&quot;https://lh3.googleusercontent.com/a-/AOh14Gj2vCFt-bD5mPBhUWX0QA6xiBgoXQXtwUm2jgjaCg=s64&quot;,&quot;userId&quot;:&quot;10668071569687886186&quot;,&quot;displayName&quot;:&quot;Stemplicity&quot;},&quot;user_tz&quot;:240,&quot;elapsed&quot;:3154,&quot;timestamp&quot;:1618858275066}" id="XeQtP9v2dxzu" data-outputId="6689f7de-159f-48d3-9abf-bba1c6f6b198">
+<div class="sourceCode" id="cb40"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Check if all elements are unique or not</span></span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>my_series.is_unique</span></code></pre></div>
+<div class="output execute_result" data-execution_count="21">
+<pre><code>True</code></pre>
+</div>
+</div>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" data-executionInfo="{&quot;status&quot;:&quot;ok&quot;,&quot;user&quot;:{&quot;photoUrl&quot;:&quot;https://lh3.googleusercontent.com/a-/AOh14Gj2vCFt-bD5mPBhUWX0QA6xiBgoXQXtwUm2jgjaCg=s64&quot;,&quot;userId&quot;:&quot;10668071569687886186&quot;,&quot;displayName&quot;:&quot;Stemplicity&quot;},&quot;user_tz&quot;:240,&quot;elapsed&quot;:3133,&quot;timestamp&quot;:1618858275066}" id="8VWnKVh0d7Kw" data-outputId="dca8b133-a9c1-432d-ed9d-9f9056224e62">
+<div class="sourceCode" id="cb42"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Check the shape of the Series</span></span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a><span class="co"># note that a Series is one dimensional</span></span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a>my_series.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="22">
+<pre><code>(5,)</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="gPL7KbA3XGr1">
+<p><strong>MINI CHALLENGE #4:</strong></p>
+<ul>
+<li><strong>What is the size of the Pandas Series? (External Research for the proper attribute is Required)</strong></li>
+</ul>
+</div>
+<div class="cell code" id="SyfddtryXbmX">
+<div class="sourceCode" id="cb44"><pre class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<section id="5-pandas-methods" class="cell markdown" id="Qc7sVau-UtYt">
+<h1>5. PANDAS METHODS</h1>
+</section>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" data-executionInfo="{&quot;status&quot;:&quot;ok&quot;,&quot;user&quot;:{&quot;photoUrl&quot;:&quot;https://lh3.googleusercontent.com/a-/AOh14Gj2vCFt-bD5mPBhUWX0QA6xiBgoXQXtwUm2jgjaCg=s64&quot;,&quot;userId&quot;:&quot;10668071569687886186&quot;,&quot;displayName&quot;:&quot;Stemplicity&quot;},&quot;user_tz&quot;:240,&quot;elapsed&quot;:3125,&quot;timestamp&quot;:1618858275068}" id="5gwWM4VvUxI2" data-outputId="7cb2d91b-0317-4708-9140-053a2ac721c2">
+<div class="sourceCode" id="cb45"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Methods have parentheses and they actually alter/change the Pandas Series</span></span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Methods: use parantheses &quot;()&quot; and might include arguments. Ex: my_series.tail(), my_series.head(), my_series.drop_duplicates()</span></span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-4"><a href="#cb45-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s define another Pandas Series that contains numeric values (stock prices) instead of text data</span></span>
+<span id="cb45-5"><a href="#cb45-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Note that we have int64 datatype which means it contains integer values stored in 64 bits in memory</span></span>
+<span id="cb45-6"><a href="#cb45-6" aria-hidden="true" tabindex="-1"></a>my_series <span class="op">=</span> pd.Series(data <span class="op">=</span> [<span class="dv">100</span>, <span class="dv">200</span>, <span class="dv">500</span>, <span class="dv">1000</span>, <span class="dv">5000</span>])</span>
+<span id="cb45-7"><a href="#cb45-7" aria-hidden="true" tabindex="-1"></a>my_series</span></code></pre></div>
+<div class="output execute_result" data-execution_count="23">
+<pre><code>0     100
+1     200
+2     500
+3    1000
+4    5000
+dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" data-executionInfo="{&quot;status&quot;:&quot;ok&quot;,&quot;user&quot;:{&quot;photoUrl&quot;:&quot;https://lh3.googleusercontent.com/a-/AOh14Gj2vCFt-bD5mPBhUWX0QA6xiBgoXQXtwUm2jgjaCg=s64&quot;,&quot;userId&quot;:&quot;10668071569687886186&quot;,&quot;displayName&quot;:&quot;Stemplicity&quot;},&quot;user_tz&quot;:240,&quot;elapsed&quot;:3116,&quot;timestamp&quot;:1618858275069}" id="ImwFgVASUxLa" data-outputId="9f7b7f3b-b8fb-4ebf-e224-fa7c43197d3f">
+<div class="sourceCode" id="cb47"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s obtain the sum of all elements in the Pandas Series</span></span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a>my_series.<span class="bu">sum</span>()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="24">
+<pre><code>6800</code></pre>
+</div>
+</div>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" data-executionInfo="{&quot;status&quot;:&quot;ok&quot;,&quot;user&quot;:{&quot;photoUrl&quot;:&quot;https://lh3.googleusercontent.com/a-/AOh14Gj2vCFt-bD5mPBhUWX0QA6xiBgoXQXtwUm2jgjaCg=s64&quot;,&quot;userId&quot;:&quot;10668071569687886186&quot;,&quot;displayName&quot;:&quot;Stemplicity&quot;},&quot;user_tz&quot;:240,&quot;elapsed&quot;:3100,&quot;timestamp&quot;:1618858275071}" id="OLa69YwxUxOa" data-outputId="158234c1-4535-45b8-ae26-677f57238f08">
+<div class="sourceCode" id="cb49"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s obtain the multiplication of all elements in the Pandas Series</span></span>
+<span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a>my_series.product()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="25">
+<pre><code>50000000000000</code></pre>
+</div>
+</div>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" data-executionInfo="{&quot;status&quot;:&quot;ok&quot;,&quot;user&quot;:{&quot;photoUrl&quot;:&quot;https://lh3.googleusercontent.com/a-/AOh14Gj2vCFt-bD5mPBhUWX0QA6xiBgoXQXtwUm2jgjaCg=s64&quot;,&quot;userId&quot;:&quot;10668071569687886186&quot;,&quot;displayName&quot;:&quot;Stemplicity&quot;},&quot;user_tz&quot;:240,&quot;elapsed&quot;:3079,&quot;timestamp&quot;:1618858275072}" id="xVMJtbtkUxQ-" data-outputId="650e2e87-2838-460a-98ae-09d1eb01cdcb">
+<div class="sourceCode" id="cb51"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s obtain the average</span></span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a>my_series.mean()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="26">
+<pre><code>1360.0</code></pre>
+</div>
+</div>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" data-executionInfo="{&quot;status&quot;:&quot;ok&quot;,&quot;user&quot;:{&quot;photoUrl&quot;:&quot;https://lh3.googleusercontent.com/a-/AOh14Gj2vCFt-bD5mPBhUWX0QA6xiBgoXQXtwUm2jgjaCg=s64&quot;,&quot;userId&quot;:&quot;10668071569687886186&quot;,&quot;displayName&quot;:&quot;Stemplicity&quot;},&quot;user_tz&quot;:240,&quot;elapsed&quot;:3069,&quot;timestamp&quot;:1618858275073}" id="FgqSFr98YTUw" data-outputId="afaf3e7b-b5c1-4d1c-b99d-dd1bc9af90e3">
+<div class="sourceCode" id="cb53"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s show the first couple of elements in the Pandas Series</span></span>
+<span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a>my_series.head(<span class="dv">2</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="27">
+<pre><code>0    100
+1    200
+dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" data-executionInfo="{&quot;status&quot;:&quot;ok&quot;,&quot;user&quot;:{&quot;photoUrl&quot;:&quot;https://lh3.googleusercontent.com/a-/AOh14Gj2vCFt-bD5mPBhUWX0QA6xiBgoXQXtwUm2jgjaCg=s64&quot;,&quot;userId&quot;:&quot;10668071569687886186&quot;,&quot;displayName&quot;:&quot;Stemplicity&quot;},&quot;user_tz&quot;:240,&quot;elapsed&quot;:3070,&quot;timestamp&quot;:1618858275083}" id="GFoxw41LZrBs" data-outputId="3aefbee8-0c98-44f4-a0b1-fd3b8a08899e">
+<div class="sourceCode" id="cb55"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Note that head creates a new dataframe </span></span>
+<span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a>new_series <span class="op">=</span> my_series.head(<span class="dv">3</span>)</span>
+<span id="cb55-3"><a href="#cb55-3" aria-hidden="true" tabindex="-1"></a>new_series</span></code></pre></div>
+<div class="output execute_result" data-execution_count="28">
+<pre><code>0    100
+1    200
+2    500
+dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="DHknLT4PTrjn">
+<p><strong>MINI CHALLENGE #5:</strong></p>
+<ul>
+<li><strong>Show the last 2 rows in the Pandas Series (External Research is Required)</strong></li>
+<li><strong>How many bytes does this Pandas Series consume in memory? (External Research is Required)</strong></li>
+</ul>
+</div>
+<div class="cell code" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" data-executionInfo="{&quot;status&quot;:&quot;ok&quot;,&quot;user&quot;:{&quot;photoUrl&quot;:&quot;https://lh3.googleusercontent.com/a-/AOh14Gj2vCFt-bD5mPBhUWX0QA6xiBgoXQXtwUm2jgjaCg=s64&quot;,&quot;userId&quot;:&quot;10668071569687886186&quot;,&quot;displayName&quot;:&quot;Stemplicity&quot;},&quot;user_tz&quot;:240,&quot;elapsed&quot;:3063,&quot;timestamp&quot;:1618858275085}" id="UUiOynSPSshX" data-outputId="a3eb0c0b-1456-40aa-8fa6-2303e8396fad">
+<div class="sourceCode" id="cb57"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a>series_3.memory_usage()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="29">
+<pre><code>240</code></pre>
+</div>
+</div>
+<section id="6-import-csv-data-1-d-using-pandas" class="cell markdown" id="vzu3jPDbasz5">
+<h1>6. IMPORT CSV DATA (1-D) USING PANDAS</h1>
+</section>
+<div class="cell code" data-execution_count="11" data-colab="{&quot;height&quot;:404,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" data-executionInfo="{&quot;status&quot;:&quot;error&quot;,&quot;user&quot;:{&quot;photoUrl&quot;:&quot;https://lh3.googleusercontent.com/a-/AOh14Gj2vCFt-bD5mPBhUWX0QA6xiBgoXQXtwUm2jgjaCg=s64&quot;,&quot;userId&quot;:&quot;10668071569687886186&quot;,&quot;displayName&quot;:&quot;Stemplicity&quot;},&quot;user_tz&quot;:240,&quot;elapsed&quot;:3588,&quot;timestamp&quot;:1618858275613}" id="zLiVpmH2asz6" data-outputId="165b683c-727d-4eee-aab4-be8aee65801c">
+<div class="sourceCode" id="cb59"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb59-1"><a href="#cb59-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Pandas read_csv is used to read a csv file and store data in a DataFrame by default (DataFrames will be covered shortly!)</span></span>
+<span id="cb59-2"><a href="#cb59-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Use Squeeze to convert it into a Pandas Series (One-dimensional)</span></span>
+<span id="cb59-3"><a href="#cb59-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Notice that no foramtting exists when a Series is plotted</span></span>
+<span id="cb59-4"><a href="#cb59-4" aria-hidden="true" tabindex="-1"></a>sp500 <span class="op">=</span> pd.read_csv(<span class="st">&quot;C:</span><span class="ch">\\</span><span class="st">Users</span><span class="ch">\\</span><span class="st">Uttam Thakur</span><span class="ch">\\</span><span class="st">Downloads</span><span class="ch">\\</span><span class="st">S_P500_Prices.csv&quot;</span>, squeeze <span class="op">=</span> <span class="va">False</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="12" id="Py1fYuPFasz6">
+<div class="sourceCode" id="cb60"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a>sp500</span></code></pre></div>
+<div class="output execute_result" data-execution_count="12">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>sp500</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1295.500000</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1289.089966</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1293.670044</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1308.040039</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1314.500000</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>2154</th>
+      <td>3327.770020</td>
+    </tr>
+    <tr>
+      <th>2155</th>
+      <td>3349.159912</td>
+    </tr>
+    <tr>
+      <th>2156</th>
+      <td>3351.280029</td>
+    </tr>
+    <tr>
+      <th>2157</th>
+      <td>3360.469971</td>
+    </tr>
+    <tr>
+      <th>2158</th>
+      <td>3333.689941</td>
+    </tr>
+  </tbody>
+</table>
+<p>2159 rows × 1 columns</p>
+</div>
+</div>
+</div>
+<div class="cell markdown" id="CykEEAr9S--X">
+<p><strong>MINI CHALLENGE #6:</strong></p>
+<ul>
+<li><strong>Set Squeeze = False and rerun the cell, what do you notice? Use Type to compare both outputs</strong></li>
+</ul>
+</div>
+<div class="cell code" id="DVEio_JnTArn">
+<div class="sourceCode" id="cb61"><pre class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<section id="7-pandas-built-in-functions" class="cell markdown" id="8HBGOWjKaK_i">
+<h1>7. PANDAS BUILT-IN FUNCTIONS</h1>
+</section>
+<div class="cell code" id="-Q-1iWEqaP6y">
+<div class="sourceCode" id="cb62"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb62-1"><a href="#cb62-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Pandas works great with pre-existing python functions </span></span>
+<span id="cb62-2"><a href="#cb62-2" aria-hidden="true" tabindex="-1"></a><span class="co"># You don&#39;t have to play with pandas methods and directly leverage Python functions</span></span>
+<span id="cb62-3"><a href="#cb62-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Check Python built-in functions here: https://docs.python.org/3/library/functions.html</span></span>
+<span id="cb62-4"><a href="#cb62-4" aria-hidden="true" tabindex="-1"></a>sp500 <span class="op">=</span> pd.read_csv(<span class="st">&#39;S&amp;P500_Prices.csv&#39;</span>, squeeze <span class="op">=</span> <span class="va">True</span>)</span></code></pre></div>
+</div>
+<div class="cell code" id="g759k2IPdVH-">
+<div class="sourceCode" id="cb63"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb63-1"><a href="#cb63-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Obtain the Data Type of the Pandas Series</span></span>
+<span id="cb63-2"><a href="#cb63-2" aria-hidden="true" tabindex="-1"></a><span class="bu">type</span>(sp500)</span></code></pre></div>
+</div>
+<div class="cell code" id="NbKysqrSaQ32">
+<div class="sourceCode" id="cb64"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb64-1"><a href="#cb64-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Obtain the length of the Pandas Series</span></span>
+<span id="cb64-2"><a href="#cb64-2" aria-hidden="true" tabindex="-1"></a><span class="bu">len</span>(sp500)</span></code></pre></div>
+</div>
+<div class="cell code" id="FeeA8actaQ6P">
+<div class="sourceCode" id="cb65"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb65-1"><a href="#cb65-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Obtain the maximum value of the Pandas Series</span></span>
+<span id="cb65-2"><a href="#cb65-2" aria-hidden="true" tabindex="-1"></a><span class="bu">max</span>(sp500)</span></code></pre></div>
+</div>
+<div class="cell code" id="fyhw96-JaQ8a">
+<div class="sourceCode" id="cb66"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb66-1"><a href="#cb66-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Obtain the minimum value of the Pandas Series</span></span>
+<span id="cb66-2"><a href="#cb66-2" aria-hidden="true" tabindex="-1"></a><span class="bu">min</span>(sp500)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="NCnRK6oMVCtg">
+<p><strong>MINI CHALLENGE #7:</strong></p>
+<ul>
+<li><strong>Given the following Pandas Series, convert all positive values to negative using python built-in functions</strong></li>
+<li><strong>Obtain only unique values (ie: Remove duplicates) using python built-in functions</strong></li>
+<li><strong>my_series = pd.Series(data = [-10, 100, -30, 50, 100])</strong></li>
+</ul>
+</div>
+<div class="cell code" id="DG-Tjp6PVEpW">
+<div class="sourceCode" id="cb67"><pre class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<section id="8-sorting-pandas-series" class="cell markdown" id="LKDuJ94RvB85">
+<h1>8. SORTING PANDAS SERIES</h1>
+</section>
+<div class="cell code" id="f-aRTmn9u7DA">
+<div class="sourceCode" id="cb68"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb68-1"><a href="#cb68-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s import CSV data as follows:</span></span>
+<span id="cb68-2"><a href="#cb68-2" aria-hidden="true" tabindex="-1"></a>sp500 <span class="op">=</span> pd.read_csv(<span class="st">&#39;S&amp;P500_Prices.csv&#39;</span>, squeeze <span class="op">=</span> <span class="va">True</span>)</span>
+<span id="cb68-3"><a href="#cb68-3" aria-hidden="true" tabindex="-1"></a>sp500</span></code></pre></div>
+</div>
+<div class="cell code" id="DaglhPNevFYC">
+<div class="sourceCode" id="cb69"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb69-1"><a href="#cb69-1" aria-hidden="true" tabindex="-1"></a><span class="co"># You can sort the values in the dataframe as follows</span></span>
+<span id="cb69-2"><a href="#cb69-2" aria-hidden="true" tabindex="-1"></a>sp500.sort_values() </span></code></pre></div>
+</div>
+<div class="cell code" id="AjzLtDlevFaW">
+<div class="sourceCode" id="cb70"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb70-1"><a href="#cb70-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s view Pandas Series again after sorting, Note that nothing changed in memory! you have to make sure that inplace is set to True</span></span>
+<span id="cb70-2"><a href="#cb70-2" aria-hidden="true" tabindex="-1"></a>sp500</span></code></pre></div>
+</div>
+<div class="cell code" id="Pgt25eXmvFce">
+<div class="sourceCode" id="cb71"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb71-1"><a href="#cb71-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Set inplace = True to ensure that change has taken place in memory </span></span>
+<span id="cb71-2"><a href="#cb71-2" aria-hidden="true" tabindex="-1"></a>sp500.sort_values(inplace <span class="op">=</span> <span class="va">True</span>) </span></code></pre></div>
+</div>
+<div class="cell code" id="jEw2Gw_hu7Fo">
+<div class="sourceCode" id="cb72"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb72-1"><a href="#cb72-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Note that now the change (ordering) took place </span></span>
+<span id="cb72-2"><a href="#cb72-2" aria-hidden="true" tabindex="-1"></a>sp500</span></code></pre></div>
+</div>
+<div class="cell code" id="6wi0QnU5iGk8">
+<div class="sourceCode" id="cb73"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb73-1"><a href="#cb73-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Notice that the indexes are now changed </span></span>
+<span id="cb73-2"><a href="#cb73-2" aria-hidden="true" tabindex="-1"></a><span class="co"># You can also sort by index (revert back to the original Pandas Series) as follows: </span></span>
+<span id="cb73-3"><a href="#cb73-3" aria-hidden="true" tabindex="-1"></a>sp500.sort_index(inplace <span class="op">=</span> <span class="va">True</span>)</span>
+<span id="cb73-4"><a href="#cb73-4" aria-hidden="true" tabindex="-1"></a>sp500</span></code></pre></div>
+</div>
+<div class="cell markdown" id="7bV_Yaq46ZTg">
+<p><strong>MINI CHALLENGE #8:</strong></p>
+<ul>
+<li><strong>Sort the S&amp;P500 values in a decending order instead. Make sure to update values in-memory.</strong></li>
+</ul>
+</div>
+<div class="cell code" id="zw0acoYEkDJB">
+<div class="sourceCode" id="cb74"><pre class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<section id="9-perform-math-operations-on-pandas-series" class="cell markdown" id="1QT7bBFCkDhh">
+<h1>9. PERFORM MATH OPERATIONS ON PANDAS SERIES</h1>
+</section>
+<div class="cell code" id="UXFGCV4SkI4O">
+<div class="sourceCode" id="cb75"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb75-1"><a href="#cb75-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s import CSV data as follows:</span></span>
+<span id="cb75-2"><a href="#cb75-2" aria-hidden="true" tabindex="-1"></a>sp500 <span class="op">=</span> pd.read_csv(<span class="st">&#39;S&amp;P500_Prices.csv&#39;</span>, squeeze <span class="op">=</span> <span class="va">True</span>)</span>
+<span id="cb75-3"><a href="#cb75-3" aria-hidden="true" tabindex="-1"></a>sp500</span></code></pre></div>
+</div>
+<div class="cell code" id="Qpo7M9yYkJPQ">
+<div class="sourceCode" id="cb76"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb76-1"><a href="#cb76-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Apply Sum Method on Pandas Series</span></span>
+<span id="cb76-2"><a href="#cb76-2" aria-hidden="true" tabindex="-1"></a>sp500.<span class="bu">sum</span>()</span></code></pre></div>
+</div>
+<div class="cell code" id="FTSaQpjokJSM">
+<div class="sourceCode" id="cb77"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb77-1"><a href="#cb77-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Apply count Method on Pandas Series</span></span>
+<span id="cb77-2"><a href="#cb77-2" aria-hidden="true" tabindex="-1"></a>sp500.count()</span></code></pre></div>
+</div>
+<div class="cell code" id="I8vVnB_5kj7C">
+<div class="sourceCode" id="cb78"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb78-1"><a href="#cb78-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Obtain the maximum value</span></span>
+<span id="cb78-2"><a href="#cb78-2" aria-hidden="true" tabindex="-1"></a>sp500.<span class="bu">max</span>()</span></code></pre></div>
+</div>
+<div class="cell code" id="u3-XBu-vko2y">
+<div class="sourceCode" id="cb79"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb79-1"><a href="#cb79-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Obtain the minimum value</span></span>
+<span id="cb79-2"><a href="#cb79-2" aria-hidden="true" tabindex="-1"></a>sp500.<span class="bu">min</span>()</span></code></pre></div>
+</div>
+<div class="cell code" id="jfaK3BsckvAK">
+<div class="sourceCode" id="cb80"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb80-1"><a href="#cb80-1" aria-hidden="true" tabindex="-1"></a><span class="co"># My favourite: Describe! </span></span>
+<span id="cb80-2"><a href="#cb80-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Describe is used to obtain all statistical information in one place </span></span>
+<span id="cb80-3"><a href="#cb80-3" aria-hidden="true" tabindex="-1"></a>sp500.describe()</span></code></pre></div>
+</div>
+<div class="cell markdown" id="wfpnZiwxk1cb">
+<p><strong>MINI CHALLENGE #9:</strong></p>
+<ul>
+<li><strong>Obtain the average price of the S&amp;P500 using two different methods</strong></li>
+</ul>
+</div>
+<div class="cell code" id="MFL9i8NWlIH5">
+<div class="sourceCode" id="cb81"><pre class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<section id="10-check-if-a-given-element-exists-in-a-pandas-series" class="cell markdown" id="Yi8uUb_eiqxo">
+<h1>10. CHECK IF A GIVEN ELEMENT EXISTS IN A PANDAS SERIES</h1>
+</section>
+<div class="cell code" id="nEQ94a2RiuiR">
+<div class="sourceCode" id="cb82"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb82-1"><a href="#cb82-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s import CSV data as follows:</span></span>
+<span id="cb82-2"><a href="#cb82-2" aria-hidden="true" tabindex="-1"></a>sp500 <span class="op">=</span> pd.read_csv(<span class="st">&#39;S&amp;P500_Prices.csv&#39;</span>, squeeze <span class="op">=</span> <span class="va">True</span>)</span>
+<span id="cb82-3"><a href="#cb82-3" aria-hidden="true" tabindex="-1"></a>sp500</span></code></pre></div>
+</div>
+<div class="cell code" id="x0T4h0CWi-p7">
+<div class="sourceCode" id="cb83"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb83-1"><a href="#cb83-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Check if a given number exists in a Pandas Series values</span></span>
+<span id="cb83-2"><a href="#cb83-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Returns a boolean &quot;True&quot; or &quot;False&quot;</span></span>
+<span id="cb83-3"><a href="#cb83-3" aria-hidden="true" tabindex="-1"></a><span class="fl">1295.500000</span> <span class="kw">in</span> sp500.values</span></code></pre></div>
+</div>
+<div class="cell code" id="xa7GXwbhi-sh">
+<div class="sourceCode" id="cb84"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb84-1"><a href="#cb84-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Check if a given number exists in a Pandas Series index</span></span>
+<span id="cb84-2"><a href="#cb84-2" aria-hidden="true" tabindex="-1"></a><span class="fl">1295.500000</span> <span class="kw">in</span> sp500.index</span></code></pre></div>
+</div>
+<div class="cell code" id="GyN5iG1ki-vC">
+<div class="sourceCode" id="cb85"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb85-1"><a href="#cb85-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Note that by default &#39;in&#39; will search in Pandas index and not values</span></span>
+<span id="cb85-2"><a href="#cb85-2" aria-hidden="true" tabindex="-1"></a><span class="fl">1295.500000</span> <span class="kw">in</span> sp500</span></code></pre></div>
+</div>
+<div class="cell markdown" id="DjNoVv5vb9ij">
+<p><strong>MINI CHALLENGE #10:</strong></p>
+<ul>
+<li><strong>Check if the stock price 3349 exists in the sp500 Pandas Series or not</strong></li>
+<li><strong>Round stock prices to the nearest integer and check again</strong></li>
+</ul>
+</div>
+<div class="cell code" id="3BYcu1gpb_Vo">
+<div class="sourceCode" id="cb86"><pre class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<section id="11-indexing-obtain-specific-elements-from-pandas-series" class="cell markdown" id="Vrv6ZboqmGmx">
+<h1>11. INDEXING: OBTAIN SPECIFIC ELEMENTS FROM PANDAS SERIES</h1>
+</section>
+<div class="cell code" id="XlMcpqkbjMI1">
+<div class="sourceCode" id="cb87"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb87-1"><a href="#cb87-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s import CSV data as follows:</span></span>
+<span id="cb87-2"><a href="#cb87-2" aria-hidden="true" tabindex="-1"></a>sp500 <span class="op">=</span> pd.read_csv(<span class="st">&#39;S&amp;P500_Prices.csv&#39;</span>, squeeze <span class="op">=</span> <span class="va">True</span>)</span>
+<span id="cb87-3"><a href="#cb87-3" aria-hidden="true" tabindex="-1"></a>sp500</span></code></pre></div>
+</div>
+<div class="cell code" id="5O_wKHmmmY2E">
+<div class="sourceCode" id="cb88"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb88-1"><a href="#cb88-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Obtain the first element in a Pandas Series</span></span>
+<span id="cb88-2"><a href="#cb88-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Note that first element has an index 0</span></span>
+<span id="cb88-3"><a href="#cb88-3" aria-hidden="true" tabindex="-1"></a>sp500[<span class="dv">0</span>]</span></code></pre></div>
+</div>
+<div class="cell code" id="QV7zW7ecmY4l">
+<div class="sourceCode" id="cb89"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb89-1"><a href="#cb89-1" aria-hidden="true" tabindex="-1"></a>sp500[<span class="dv">3</span>]</span></code></pre></div>
+</div>
+<div class="cell code" id="7wsOMwrvnHdJ">
+<div class="sourceCode" id="cb90"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb90-1"><a href="#cb90-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Obtain the last element in the Pandas Series</span></span>
+<span id="cb90-2"><a href="#cb90-2" aria-hidden="true" tabindex="-1"></a>sp500[<span class="dv">2158</span>]</span></code></pre></div>
+</div>
+<div class="cell markdown" id="mIsxBKz0cUZz">
+<p><strong>MINI CHALLENGE #11:</strong></p>
+<ul>
+<li><strong>Obtain the fifth element in the Pandas Series</strong></li>
+</ul>
+</div>
+<div class="cell code" id="hPzW6L__crcc">
+<div class="sourceCode" id="cb91"><pre class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<section id="12-slicing-obtain-multiple-elements-from-pandas-series" class="cell markdown" id="FqV5utBLnQuk">
+<h1>12. SLICING: OBTAIN MULTIPLE ELEMENTS FROM PANDAS SERIES</h1>
+</section>
+<div class="cell code" id="FnZ_HXFcnY5-">
+<div class="sourceCode" id="cb92"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb92-1"><a href="#cb92-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s import CSV data as follows:</span></span>
+<span id="cb92-2"><a href="#cb92-2" aria-hidden="true" tabindex="-1"></a>sp500 <span class="op">=</span> pd.read_csv(<span class="st">&#39;S&amp;P500_Prices.csv&#39;</span>, squeeze <span class="op">=</span> <span class="va">True</span>)</span>
+<span id="cb92-3"><a href="#cb92-3" aria-hidden="true" tabindex="-1"></a>sp500</span></code></pre></div>
+</div>
+<div class="cell code" id="QVdRqhsbmY6X">
+<div class="sourceCode" id="cb93"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb93-1"><a href="#cb93-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Slice elements from a Pandas Series</span></span>
+<span id="cb93-2"><a href="#cb93-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s obtain elements starting from index 0 up until and not including index 5 (ie: indexes 0-4)</span></span>
+<span id="cb93-3"><a href="#cb93-3" aria-hidden="true" tabindex="-1"></a>sp500[<span class="dv">0</span>:<span class="dv">5</span>]</span></code></pre></div>
+</div>
+<div class="cell code" id="YtZ4bhPKmY8S">
+<div class="sourceCode" id="cb94"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb94-1"><a href="#cb94-1" aria-hidden="true" tabindex="-1"></a><span class="co"># obtain all elements starting from index 0 up until and not including index 10</span></span>
+<span id="cb94-2"><a href="#cb94-2" aria-hidden="true" tabindex="-1"></a>sp500[:<span class="dv">10</span>]</span></code></pre></div>
+</div>
+<div class="cell code" id="tShJSc6Bmv6d">
+<div class="sourceCode" id="cb95"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb95-1"><a href="#cb95-1" aria-hidden="true" tabindex="-1"></a><span class="co"># obtain all elements starting from index 5 up until the end of the Pandas Series</span></span>
+<span id="cb95-2"><a href="#cb95-2" aria-hidden="true" tabindex="-1"></a>sp500[<span class="dv">5</span>:]</span></code></pre></div>
+</div>
+<div class="cell markdown" id="BOIQH-R7dSDy">
+<p><strong>MINI CHALLENGE #12:</strong></p>
+<ul>
+<li><strong>Obtain all elements in Pandas Series except for the last 3 elements</strong></li>
+</ul>
+</div>
+<section id="mini-challenge-solutions" class="cell markdown" id="MF2SdJZ_vn4z">
+<h1>MINI CHALLENGE SOLUTIONS</h1>
+</section>
+<div class="cell markdown" id="08v_y7IaJrvt">
+<p><strong>MINI CHALLENGE #1 SOLUTION:</strong></p>
+<ul>
+<li><strong>Define a Pandas Series named "my_series" that contains your top 3 favourite movies. Confirm the datatype of "my_series"</strong></li>
+</ul>
+</div>
+<div class="cell code" id="syn8_3JiJrvt">
+<div class="sourceCode" id="cb96"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb96-1"><a href="#cb96-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s define a Python list that contains 3 top movies</span></span>
+<span id="cb96-2"><a href="#cb96-2" aria-hidden="true" tabindex="-1"></a>my_list <span class="op">=</span> [<span class="st">&#39;The Godfather&#39;</span>,<span class="st">&#39;Star Wars&#39;</span>,<span class="st">&#39;The Wolf of Wall Street&#39;</span>] </span>
+<span id="cb96-3"><a href="#cb96-3" aria-hidden="true" tabindex="-1"></a>my_series <span class="op">=</span> pd.Series(data <span class="op">=</span> my_list) </span>
+<span id="cb96-4"><a href="#cb96-4" aria-hidden="true" tabindex="-1"></a>my_series</span></code></pre></div>
+</div>
+<div class="cell code" id="12MuwJ5eJrvu">
+<div class="sourceCode" id="cb97"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb97-1"><a href="#cb97-1" aria-hidden="true" tabindex="-1"></a><span class="bu">type</span>(my_series)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="1x6d0qzMKg-A">
+<p><strong>MINI CHALLENGE #2 SOLUTION:</strong></p>
+<ul>
+<li><strong>Define a Pandas Series named "my_series" that contains your top 3 favourite movies. Instead of using default numeric indexes (similar to mini challenge #1), use the following indexes "movie #1", "Movie #2", and "movie #3"</strong></li>
+</ul>
+</div>
+<div class="cell code" id="ddjSNsHBK-ll">
+<div class="sourceCode" id="cb98"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb98-1"><a href="#cb98-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s define a Python list that contains 3 movies as follows</span></span>
+<span id="cb98-2"><a href="#cb98-2" aria-hidden="true" tabindex="-1"></a>my_list <span class="op">=</span> [<span class="st">&#39;The Godfather&#39;</span>,<span class="st">&#39;Star Wars&#39;</span>,<span class="st">&#39;The Wolf of Wall Street&#39;</span>] </span>
+<span id="cb98-3"><a href="#cb98-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb98-4"><a href="#cb98-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s define a python list as shown below. This python list will be used for the Series index:</span></span>
+<span id="cb98-5"><a href="#cb98-5" aria-hidden="true" tabindex="-1"></a>my_labels <span class="op">=</span> [<span class="st">&#39;movie #1&#39;</span>, <span class="st">&#39;movie #2&#39;</span>, <span class="st">&#39;movie #3&#39;</span>]</span></code></pre></div>
+</div>
+<div class="cell code" id="4iNEgSEtK8kl">
+<div class="sourceCode" id="cb99"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb99-1"><a href="#cb99-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s create a one dimensional Pandas &quot;series&quot; </span></span>
+<span id="cb99-2"><a href="#cb99-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s use Pandas Constructor Method to create a series from a Python list</span></span>
+<span id="cb99-3"><a href="#cb99-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Note that this series is formed of data and associated labels </span></span>
+<span id="cb99-4"><a href="#cb99-4" aria-hidden="true" tabindex="-1"></a>my_series <span class="op">=</span> pd.Series(data <span class="op">=</span> my_list, index <span class="op">=</span> my_labels)</span>
+<span id="cb99-5"><a href="#cb99-5" aria-hidden="true" tabindex="-1"></a>my_series</span></code></pre></div>
+</div>
+<div class="cell markdown" id="r6btEnxmMy_G">
+<p><strong>MINI CHALLENGE #3 SOLUTION:</strong></p>
+<ul>
+<li><strong>Create a Pandas Series from a dictionary with 3 of your favourite stocks and their corresponding prices</strong></li>
+</ul>
+</div>
+<div class="cell code" id="PzkBjyLHM7Do">
+<div class="sourceCode" id="cb100"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb100-1"><a href="#cb100-1" aria-hidden="true" tabindex="-1"></a>stocks <span class="op">=</span> {<span class="st">&#39;SP500&#39;</span>: <span class="dv">3000</span>, </span>
+<span id="cb100-2"><a href="#cb100-2" aria-hidden="true" tabindex="-1"></a>          <span class="st">&#39;AAPL&#39;</span>: <span class="dv">400</span>,</span>
+<span id="cb100-3"><a href="#cb100-3" aria-hidden="true" tabindex="-1"></a>          <span class="st">&#39;TSLA&#39;</span>: <span class="dv">2200</span>}</span>
+<span id="cb100-4"><a href="#cb100-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(stocks)</span></code></pre></div>
+</div>
+<div class="cell code" id="QeDCPO9hNAKj">
+<div class="sourceCode" id="cb101"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb101-1"><a href="#cb101-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Let&#39;s define a Pandas Series Using the dictionary</span></span>
+<span id="cb101-2"><a href="#cb101-2" aria-hidden="true" tabindex="-1"></a>my_series <span class="op">=</span> pd.Series(stocks)</span>
+<span id="cb101-3"><a href="#cb101-3" aria-hidden="true" tabindex="-1"></a>my_series</span></code></pre></div>
+</div>
+<div class="cell markdown" id="lB8OYAVJXRYe">
+<p><strong>MINI CHALLENGE #4 SOLUTION:</strong></p>
+<ul>
+<li><strong>What is the size of the Pandas Series? (External Research is Required)</strong></li>
+</ul>
+</div>
+<div class="cell code" id="D5D0wFlmXRYf">
+<div class="sourceCode" id="cb102"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb102-1"><a href="#cb102-1" aria-hidden="true" tabindex="-1"></a><span class="co"># size is used to return the size of the series</span></span>
+<span id="cb102-2"><a href="#cb102-2" aria-hidden="true" tabindex="-1"></a>series_3.size</span></code></pre></div>
+</div>
+<div class="cell markdown" id="5D7QSEf7Y8aa">
+<p><strong>MINI CHALLENGE #5 SOLUTION:</strong></p>
+<ul>
+<li><strong>Show the last 2 rows in the Pandas Series (External Research is Required)</strong></li>
+<li><strong>How many bytes does this Pandas Series consume in memory? (External Research is Required)</strong></li>
+</ul>
+</div>
+<div class="cell code" id="FsSGV7I3Y_ja">
+<div class="sourceCode" id="cb103"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb103-1"><a href="#cb103-1" aria-hidden="true" tabindex="-1"></a>my_series.tail(<span class="dv">2</span>)</span></code></pre></div>
+</div>
+<div class="cell code" id="s8g0WhX6Y8aa">
+<div class="sourceCode" id="cb104"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb104-1"><a href="#cb104-1" aria-hidden="true" tabindex="-1"></a>my_series.memory_usage()</span></code></pre></div>
+</div>
+<div class="cell code" id="k27pa4L1fv7-">
+<div class="sourceCode" id="cb105"><pre class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<div class="cell markdown" id="Thrv0augRv88">
+<p><strong>MINI CHALLENGE #6 SOLUTION:</strong></p>
+<ul>
+<li><strong>Set Squeeze = False and rerun the cell, what do you notice? Use Type to compare both outputs</strong></li>
+</ul>
+</div>
+<div class="cell code" id="Ebt-VMfccjR6">
+<div class="sourceCode" id="cb106"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb106-1"><a href="#cb106-1" aria-hidden="true" tabindex="-1"></a>sp500 <span class="op">=</span> pd.read_csv(<span class="st">&#39;S&amp;P500_Prices.csv&#39;</span>, squeeze <span class="op">=</span> <span class="va">False</span>)</span>
+<span id="cb106-2"><a href="#cb106-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Note that when you set Squeeze = False, the data is stored in a DataFrame by default. </span></span>
+<span id="cb106-3"><a href="#cb106-3" aria-hidden="true" tabindex="-1"></a><span class="co"># DataFrame is simply used to store multi dimensional data as compares to Pandas Series that only holds 1-D dataset </span></span>
+<span id="cb106-4"><a href="#cb106-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Note that DataFrames has proper formatting when you attempt to view them as shown below </span></span>
+<span id="cb106-5"><a href="#cb106-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Note that Pandas Series has no formatting</span></span></code></pre></div>
+</div>
+<div class="cell code" id="WsTIJJlRSFkJ">
+<div class="sourceCode" id="cb107"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb107-1"><a href="#cb107-1" aria-hidden="true" tabindex="-1"></a>sp500</span></code></pre></div>
+</div>
+<div class="cell code" id="NJXOLvacSjh9">
+<div class="sourceCode" id="cb108"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb108-1"><a href="#cb108-1" aria-hidden="true" tabindex="-1"></a><span class="bu">type</span>(sp500)</span></code></pre></div>
+</div>
+<div class="cell code" id="VqShdXDGSjnD">
+<div class="sourceCode" id="cb109"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb109-1"><a href="#cb109-1" aria-hidden="true" tabindex="-1"></a>sp500 <span class="op">=</span> pd.read_csv(<span class="st">&#39;S&amp;P500_Prices.csv&#39;</span>, squeeze <span class="op">=</span> <span class="va">True</span>)</span>
+<span id="cb109-2"><a href="#cb109-2" aria-hidden="true" tabindex="-1"></a><span class="bu">type</span>(sp500)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="c9aEM3KTT619">
+<p><strong>MINI CHALLENGE #7 SOLUTION:</strong></p>
+<ul>
+<li><strong>Given the following Pandas Series, convert all positive values to negative using python built-in functions</strong></li>
+<li><strong>Obtain only unique values (ie: Remove duplicates) using python built-in functions</strong></li>
+<li><strong>my_series = pd.Series(data = [-10, 100, -30, 50, 100])</strong></li>
+</ul>
+</div>
+<div class="cell code" id="VP5bBkaOUIpo">
+<div class="sourceCode" id="cb110"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb110-1"><a href="#cb110-1" aria-hidden="true" tabindex="-1"></a>my_series <span class="op">=</span> pd.Series(data <span class="op">=</span> [<span class="op">-</span><span class="dv">10</span>, <span class="dv">100</span>, <span class="op">-</span><span class="dv">30</span>, <span class="dv">50</span>, <span class="dv">100</span>])</span>
+<span id="cb110-2"><a href="#cb110-2" aria-hidden="true" tabindex="-1"></a>my_series</span></code></pre></div>
+</div>
+<div class="cell code" id="NFKY2ZNRaQ-s">
+<div class="sourceCode" id="cb111"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb111-1"><a href="#cb111-1" aria-hidden="true" tabindex="-1"></a><span class="bu">abs</span>(my_series)</span></code></pre></div>
+</div>
+<div class="cell code" id="xqWCYc0n6V-d">
+<div class="sourceCode" id="cb112"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb112-1"><a href="#cb112-1" aria-hidden="true" tabindex="-1"></a><span class="bu">set</span>(my_series)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="5hAgN4ITfwPZ">
+<p><strong>MINI CHALLENGE #8 SOLUTION:</strong></p>
+<ul>
+<li><strong>Sort the S&amp;P500 values in a decending order instead. Make sure to update values in-memory.</strong></li>
+</ul>
+</div>
+<div class="cell code" id="XbMv5fujfwPa">
+<div class="sourceCode" id="cb113"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb113-1"><a href="#cb113-1" aria-hidden="true" tabindex="-1"></a>sp500.sort_values(ascending <span class="op">=</span> <span class="va">False</span>, inplace <span class="op">=</span> <span class="va">True</span>) </span>
+<span id="cb113-2"><a href="#cb113-2" aria-hidden="true" tabindex="-1"></a>sp500</span></code></pre></div>
+</div>
+<div class="cell code" id="dFlqKzfQlDS-">
+<div class="sourceCode" id="cb114"><pre class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<div class="cell markdown" id="BJJRSL5jlDlV">
+<p><strong>MINI CHALLENGE #9 SOLUTION:</strong></p>
+<ul>
+<li><strong>Obtain the average price using two different methods</strong></li>
+</ul>
+</div>
+<div class="cell code" id="PPjFgt5FlDlW">
+<div class="sourceCode" id="cb115"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb115-1"><a href="#cb115-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Obtain the average - Solution #1</span></span>
+<span id="cb115-2"><a href="#cb115-2" aria-hidden="true" tabindex="-1"></a>sp500.<span class="bu">sum</span>()<span class="op">/</span>sp500.count()</span></code></pre></div>
+</div>
+<div class="cell code" id="P10NuBnslDlW">
+<div class="sourceCode" id="cb116"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb116-1"><a href="#cb116-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Obtain the average - Solution #s</span></span>
+<span id="cb116-2"><a href="#cb116-2" aria-hidden="true" tabindex="-1"></a>sp500.mean()</span></code></pre></div>
+</div>
+<div class="cell code" id="TZkayhzAby14">
+<div class="sourceCode" id="cb117"><pre class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<div class="cell markdown" id="VUaaCo_5a8h0">
+<p><strong>MINI CHALLENGE #10 SOLUTION:</strong></p>
+<ul>
+<li><strong>Check if the stock price 3349 exists in the sp500 Pandas Series or not</strong></li>
+<li><strong>Round stock prices to the nearest integer and check again</strong></li>
+</ul>
+</div>
+<div class="cell code" id="650WOhWVjMGx">
+<div class="sourceCode" id="cb118"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb118-1"><a href="#cb118-1" aria-hidden="true" tabindex="-1"></a><span class="dv">3349</span> <span class="kw">in</span> sp500.values</span></code></pre></div>
+</div>
+<div class="cell code" id="8T7B5PhsbVB0">
+<div class="sourceCode" id="cb119"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb119-1"><a href="#cb119-1" aria-hidden="true" tabindex="-1"></a>sp500 <span class="op">=</span> <span class="bu">round</span>(sp500)</span>
+<span id="cb119-2"><a href="#cb119-2" aria-hidden="true" tabindex="-1"></a>sp500</span></code></pre></div>
+</div>
+<div class="cell code" id="Ads3YyW_bhVh">
+<div class="sourceCode" id="cb120"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb120-1"><a href="#cb120-1" aria-hidden="true" tabindex="-1"></a><span class="dv">3349</span> <span class="kw">in</span> sp500.values</span></code></pre></div>
+</div>
+<div class="cell markdown" id="vAJPyYxMcmoo">
+<p><strong>MINI CHALLENGE #11 SOLUTION:</strong></p>
+<ul>
+<li><strong>Obtain the fifth element in the Pandas Series</strong></li>
+</ul>
+</div>
+<div class="cell code" id="4RDUq1phcmop">
+<div class="sourceCode" id="cb121"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb121-1"><a href="#cb121-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Note that the fifth element has an index = 4</span></span>
+<span id="cb121-2"><a href="#cb121-2" aria-hidden="true" tabindex="-1"></a>sp500[<span class="dv">4</span>]</span></code></pre></div>
+</div>
+<div class="cell markdown" id="d3mdLBq2dicZ">
+<p><strong>MINI CHALLENGE #12 SOLUTION:</strong></p>
+<ul>
+<li><strong>Obtain all elements in Pandas Series except for the last 3 elements</strong></li>
+</ul>
+</div>
+<div class="cell code" id="0CaYXe_udFyA">
+<div class="sourceCode" id="cb122"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb122-1"><a href="#cb122-1" aria-hidden="true" tabindex="-1"></a>sp500[:<span class="op">-</span><span class="dv">3</span>]</span></code></pre></div>
+</div>
+</body>
+</html>
